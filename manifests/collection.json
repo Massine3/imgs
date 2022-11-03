@@ -1,0 +1,13 @@
+{
+  "id" : "https://Massine3.github.io/imgs/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Massine3/imgs project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Massine3.github.io/imgs/manifests/manifest_exemple.json",
+    "label" : "deux image d'exemple"
+  } ]
+}

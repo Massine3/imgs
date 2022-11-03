@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Massine3.github.io/imgs/manifests/manifest_exemple1.json",
     "label" : "deux image d'exemple"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Massine3.github.io/imgs/manifests/manifest__exemple.json",
+    "label" : "Deux image d'exemple"
   } ]
 }

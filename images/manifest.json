@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 2000,
+    "id" : "https://Massine3.github.io/imgs/images/plot_jpg/canvas/",
+    "label" : {
+      "none" : [ "plot_jpg" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://Massine3.github.io/imgs/images/plot_jpg/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://Massine3.github.io/imgs/images/plot_jpg/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 63,
+              "height" : 32
+            }, {
+              "width" : 125,
+              "height" : 63
+            }, {
+              "width" : 250,
+              "height" : 125
+            }, {
+              "width" : 500,
+              "height" : 250
+            }, {
+              "width" : 1000,
+              "height" : 500
+            }, {
+              "width" : 2000,
+              "height" : 1000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2000,
+            "@id" : "https://Massine3.github.io/imgs/images/plot_jpg",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2000,
+          "id" : "https://Massine3.github.io/imgs/images/plot_jpg/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1000
+        },
+        "target" : "https://Massine3.github.io/imgs/images/plot_jpg/canvas/"
+      } ]
+    } ],
+    "height" : 1000
+  }, {
+    "width" : 2000,
     "id" : "https://Massine3.github.io/imgs/images/plot/canvas/",
     "label" : {
       "none" : [ "plot" ]
